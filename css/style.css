@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.numeri{
+    display: flex;
+    flex-wrap: wrap;
+}
+.campionato-container{
+    width: 775px;
+    aspect-ratio: 1/1;
+    max-width: 100%;
+}
+.square{
+    width: 75px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.bg-acquamarine{
+    background-color: #7FFFD4;
+}
+.bg-darkacquamarine{
+    background-color: #013D3D;
+}
