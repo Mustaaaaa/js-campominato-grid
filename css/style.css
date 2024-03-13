@@ -1,24 +1,24 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0 ;
+    margin: 0 ;
     box-sizing: border-box;
 }
-.numeri{
-    display: flex;
-    flex-wrap: wrap;
-}
-.campionato-container{
-    width: 775px;
-    aspect-ratio: 1/1;
-    max-width: 100%;
-}
-.square{
-    width: 75px;
+.cell{
+    width: calc(100% / 10);
     aspect-ratio: 1/1;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.campionato-container{
+    width: 785px;
+    aspect-ratio: 1/1;
+    max-width: 100%;
 }
 .bg-acquamarine{
     background-color: #7FFFD4;
