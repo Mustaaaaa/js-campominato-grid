@@ -4,13 +4,24 @@
     box-sizing: border-box;
 }
 .cell{
-    width: calc(100% / 10);
+
     aspect-ratio: 1/1;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid;
+    cursor: pointer;
 }
+.easy-difficulty{
+    width: calc(100% / 10);
+}
+.medium-difficulty{
+    width: calc(100% / 9);
+}
+.hard-difficulty{
+    width: calc(100% / 7);
+}
+
 .grid{
     display: flex;
     flex-wrap: wrap;
@@ -25,4 +36,7 @@
 }
 .bg-darkacquamarine{
     background-color: #013D3D;
+}
+.white{
+    color: white;
 }

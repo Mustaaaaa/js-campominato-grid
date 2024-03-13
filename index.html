@@ -18,9 +18,20 @@
 
 					<h1>Campo Minato</h1>
 				</div>
-				<div>
-					<input type="submit" value="Play">
+				<div class="d-flex">
+					<div class="dropdown mx-3">
+						<label for="difficulty">Difficoltà: </label>
+						<select name="difficulty" id="difficulty">
+							<option class="hard">Hard</option>
+							<option class="medium">Medium</option>
+							<option class="easy" selected>Easy</option>
+						</select>
+					</div>
+					<div>
+						<input type="button" value="Play" id="play">
+					</div>
 				</div>
+				
 			</section>
 		</header>
 		<main>
